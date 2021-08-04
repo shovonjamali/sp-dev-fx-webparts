@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "show-group-members-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/showGroupMembers/ShowGroupMembersWebPart.js",
+          "manifest": "./src/webparts/showGroupMembers/ShowGroupMembersWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ShowGroupMembersWebPartStrings": "lib/webparts/showGroupMembers/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

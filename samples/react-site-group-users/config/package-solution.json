@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-site-group-users-client-side-solution",
+    "id": "dc0d6261-04cf-4886-884d-30df3a471fdb",
+    "version": "2.0.3.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Jobaidul Alam Jamali",
+      "websiteUrl": "https://www.linkedin.com/in/jobaidul-alam-jamali-366b0757/",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/react-site-group-users.sppkg"
+  }
+}
